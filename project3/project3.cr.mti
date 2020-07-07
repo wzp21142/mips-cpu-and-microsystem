@@ -1,0 +1,119 @@
+F:/Modelsim_Workspace/project3/InsReader.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project3/InsReader.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module InsReader
+
+Top level modules:
+	InsReader
+
+} {} {}} F:/Modelsim_Workspace/project3/test.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project3/test.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} F:/Modelsim_Workspace/project3/timer.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project3/timer.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module timer
+
+Top level modules:
+	timer
+
+} {} {}} F:/Modelsim_Workspace/project3/npc.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project3/npc.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module npc_module
+
+Top level modules:
+	npc_module
+
+} {} {}} F:/Modelsim_Workspace/project3/inputsim.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project3/inputsim.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module inputsim
+
+Top level modules:
+	inputsim
+
+} {} {}} F:/Modelsim_Workspace/project3/alu.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project3/alu.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} F:/Modelsim_Workspace/project3/CP0.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project3/CP0.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module CP0
+
+Top level modules:
+	CP0
+
+} {} {}} F:/Modelsim_Workspace/project3/PC_control.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project3/PC_control.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module PC_control
+
+Top level modules:
+	PC_control
+
+} {} {}} F:/Modelsim_Workspace/project3/system.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project3/system.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module system
+
+Top level modules:
+	system
+
+} {} {}} F:/Modelsim_Workspace/project3/im.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project3/im.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im_8k
+
+Top level modules:
+	im_8k
+
+} {} {}} F:/Modelsim_Workspace/project3/datadelayer.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project3/datadelayer.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module datadelayer32
+-- Compiling module datadelayer1
+-- Compiling module datadelayer2
+-- Compiling module datadelayer3
+
+Top level modules:
+	datadelayer32
+	datadelayer1
+	datadelayer2
+	datadelayer3
+
+} {} {}} F:/Modelsim_Workspace/project3/registers.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project3/registers.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module registers
+
+Top level modules:
+	registers
+
+} {} {}} F:/Modelsim_Workspace/project3/dm.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project3/dm.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm_12k
+
+Top level modules:
+	dm_12k
+
+} {} {}} F:/Modelsim_Workspace/project3/mips.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project3/mips.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} F:/Modelsim_Workspace/project3/outputsim.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project3/outputsim.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module outputsim
+
+Top level modules:
+	outputsim
+
+} {} {}} F:/Modelsim_Workspace/project3/controller.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project3/controller.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}}

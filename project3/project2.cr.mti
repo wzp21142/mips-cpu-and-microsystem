@@ -1,0 +1,82 @@
+F:/Modelsim_Workspace/project2/im.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project2/im.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module im_1k
+
+Top level modules:
+	im_1k
+
+} {} {}} F:/Modelsim_Workspace/project2/alu.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project2/alu.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} F:/Modelsim_Workspace/project2/PC_control.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project2/PC_control.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module PC_control
+
+Top level modules:
+	PC_control
+
+} {} {}} F:/Modelsim_Workspace/project2/controller.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project2/controller.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} F:/Modelsim_Workspace/project2/datadelayer.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project2/datadelayer.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module datadelayer32
+-- Compiling module datadelayer1
+-- Compiling module datadelayer2
+
+Top level modules:
+	datadelayer32
+	datadelayer1
+	datadelayer2
+
+} {} {}} F:/Modelsim_Workspace/project2/registers.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project2/registers.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module registers
+
+Top level modules:
+	registers
+
+} {} {}} F:/Modelsim_Workspace/project2/test.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project2/test.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} F:/Modelsim_Workspace/project2/npc.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project2/npc.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module npc_module
+
+Top level modules:
+	npc_module
+
+} {} {}} F:/Modelsim_Workspace/project2/mips.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project2/mips.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} F:/Modelsim_Workspace/project2/InsReader.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project2/InsReader.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module InsReader
+
+Top level modules:
+	InsReader
+
+} {} {}} F:/Modelsim_Workspace/project2/dm.v {1 {vlog -work work -novopt F:/Modelsim_Workspace/project2/dm.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module dm_1k
+
+Top level modules:
+	dm_1k
+
+} {} {}}

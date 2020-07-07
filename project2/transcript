@@ -1,0 +1,1922 @@
+# Reading E:/Modelsim/tcl/vsim/pref.tcl 
+# //  ModelSim SE 10.1a Feb 22 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile F:/Modelsim_Workspace/project2/PC_control.v 
+# Loading project project2
+vsim -gui work.test
+# vsim -gui work.test 
+# Loading work.test
+# Loading work.mips
+# Loading work.controller
+# Loading work.datadelayer2
+# Loading work.im_1k
+# Loading work.InsReader
+# Loading work.datadelayer32
+# Loading work.registers
+# Loading work.dm_1k
+# Loading work.alu
+# Loading work.datadelayer1
+# Loading work.npc_module
+# Loading work.PC_control
+do wave.do
+# Cannot open macro file: wave.do
+add wave -position end  sim:/test/clk
+add wave -position end  sim:/test/mips/GPR/memory
+add wave -position end  sim:/test/mips/dm/dm
+run
+#                    0INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                   10ORI
+# exe next:wb
+#                   30ORI
+# wb next:if
+#                   50ORI
+#                   60 WRITING: WriteReg-16 <= Data-00000001
+#                   70ORI
+# rf next:exe
+#                   90ORI
+# exe next:wb
+#                  110ORI
+# wb next:if
+#                  130ORI
+#                  140 WRITING: WriteReg-17 <= Data-00000003
+#                  150ORI
+# rf next:exe
+#                  170ORI
+# exe next:wb
+#                  190ORI
+# wb next:if
+#                  210ORI
+#                  220 WRITING: WriteReg- 8 <= Data-00000001
+#                  230ORI
+# rf next:exe
+#                  250ORI
+# exe next:wb
+#                  270ORI
+# wb next:if
+#                  290ORI
+#                  300 WRITING: WriteReg-12 <= Data-0000abab
+#                  310ORI
+# rf next:exe
+#                  330LUI
+# exe next:wb
+#                  350LUI
+# wb next:if
+#                  370LUI
+#                  380 WRITING: WriteReg-13 <= Data-000a0000
+#                  390LUI
+# rf next:exe
+#                  410ADDU
+# exe next:wb
+#                  430ADDU
+# wb next:if
+#                  450ADDU
+#                  460 WRITING: WriteReg- 4 <= Data-00000001
+#                  470ADDU
+# rf next:exe
+#                  490ADDU
+# exe next:wb
+#                  510ADDU
+# wb next:if
+#                  530ADDU
+#                  540 WRITING: WriteReg- 5 <= Data-00000001
+#                  550ADDU
+# rf next:wb
+#                  570JAL
+# wb next:if
+#                  590JAL
+#                  600 WRITING: WriteReg-31 <= Data-00003020
+#                  610JAL
+#                  610 J/JAL happening: PC <= 000030cc
+# rf next:exe
+#                  630ADDU
+# exe next:wb
+#                  650ADDU
+# wb next:if
+#                  670ADDU
+#                  680 WRITING: WriteReg- 2 <= Data-00000002
+#                  690ADDU
+# rf next:exe
+#                  710ADDI
+# exe next:wb
+#                  730ADDI
+# wb next:if
+#                  750ADDI
+#                  770ADDI
+# rf next:if
+#                  790JR
+#                  790 JR happening: PC <= 00003020
+#                  810JR
+#                  810 JR happening: PC <= 00003020
+# rf next:exe
+#                  830ADDU
+# exe next:wb
+#                  850ADDU
+# wb next:if
+#                  870ADDU
+#                  880 WRITING: WriteReg-16 <= Data-00000002
+#                  890ADDU
+# rf next:exe
+#                  910SUBU
+# exe next:wb
+#                  930SUBU
+# wb next:if
+#                  950SUBU
+#                  960 WRITING: WriteReg-17 <= Data-00000002
+#                  970SUBU
+# rf next:exe
+#                  990BEQ
+# exe next:if
+#                 1010BEQ
+#                 1030BEQ
+#                 1030 BEQ happening: PC <= 00003014
+# rf next:exe
+#                 1050ADDU
+# exe next:wb
+#                 1070ADDU
+# wb next:if
+#                 1090ADDU
+#                 1100 WRITING: WriteReg- 4 <= Data-00000002
+#                 1110ADDU
+# rf next:exe
+#                 1130ADDU
+# exe next:wb
+#                 1150ADDU
+# wb next:if
+#                 1170ADDU
+#                 1180 WRITING: WriteReg- 5 <= Data-00000001
+#                 1190ADDU
+# rf next:wb
+#                 1210JAL
+# wb next:if
+#                 1230JAL
+#                 1240 WRITING: WriteReg-31 <= Data-00003020
+#                 1250JAL
+#                 1250 J/JAL happening: PC <= 000030cc
+# rf next:exe
+#                 1270ADDU
+# exe next:wb
+#                 1290ADDU
+# wb next:if
+#                 1310ADDU
+#                 1320 WRITING: WriteReg- 2 <= Data-00000003
+#                 1330ADDU
+# rf next:exe
+#                 1350ADDI
+# exe next:wb
+#                 1370ADDI
+# wb next:if
+#                 1390ADDI
+#                 1410ADDI
+# rf next:if
+#                 1430JR
+#                 1430 JR happening: PC <= 00003020
+#                 1450JR
+#                 1450 JR happening: PC <= 00003020
+# rf next:exe
+#                 1470ADDU
+# exe next:wb
+#                 1490ADDU
+# wb next:if
+#                 1510ADDU
+#                 1520 WRITING: WriteReg-16 <= Data-00000003
+#                 1530ADDU
+# rf next:exe
+#                 1550SUBU
+# exe next:wb
+#                 1570SUBU
+# wb next:if
+#                 1590SUBU
+#                 1600 WRITING: WriteReg-17 <= Data-00000001
+#                 1610SUBU
+# rf next:exe
+#                 1630BEQ
+# exe next:if
+#                 1650BEQ
+#                 1670BEQ
+# rf next:exe
+#                 1690ORI
+# exe next:wb
+#                 1710ORI
+# wb next:if
+#                 1730ORI
+#                 1740 WRITING: WriteReg- 8 <= Data-00000004
+#                 1750ORI
+# rf next:exe
+#                 1770LUI
+# exe next:wb
+#                 1790LUI
+# wb next:if
+#                 1810LUI
+#                 1820 WRITING: WriteReg- 1 <= Data-7fff0000
+#                 1830LUI
+# rf next:exe
+#                 1850ORI
+# exe next:wb
+#                 1870ORI
+# wb next:if
+#                 1890ORI
+#                 1900 WRITING: WriteReg- 1 <= Data-7fffffff
+#                 1910ORI
+# rf next:exe
+#                 1930ADDU
+# exe next:wb
+#                 1950ADDU
+# wb next:if
+#                 1970ADDU
+#                 1980 WRITING: WriteReg-24 <= Data-7fffffff
+#                 1990ADDU
+# rf next:exe
+#                 2010ADDIU
+# exe next:wb
+#                 2030ADDIU
+# wb next:if
+#                 2050ADDIU
+#                 2060 WRITING: WriteReg- 9 <= Data-80000002
+#                 2070ADDIU
+# rf next:exe
+#                 2090ADDIU
+# exe next:wb
+#                 2110ADDIU
+# wb next:if
+#                 2130ADDIU
+#                 2140 WRITING: WriteReg-10 <= Data-80000004
+#                 2150ADDIU
+# rf next:exe
+#                 2170ADDI
+# exe next:wb
+#                 2190ADDI
+# wb next:if
+#                 2210ADDI
+#                 2220 WRITING: WriteReg-22 <= Data-80000005
+#                 2220 overflow written!
+#                 2230ADDI
+# rf next:exe
+#                 2250SW
+# exe next:mem
+#                 2270SW
+# mem next:if
+#                 2290SW
+#                 2310SW
+# rf next:exe
+#                 2330SW
+# exe next:mem
+#                 2350SW
+# mem next:if
+#                 2370SW
+#                 2390SW
+# rf next:exe
+#                 2410LB
+# exe next:mem
+#                 2430LB
+# mem next:wb
+#                 2450LB
+# wb next:if
+#                 2470LB
+#                 2480 WRITING: WriteReg-14 <= Data-0000007f
+#                 2490LB
+# rf next:exe
+#                 2510SB
+# exe next:mem
+#                 2530SB
+# mem next:if
+#                 2550SB
+#                 2570SB
+# rf next:exe
+#                 2590LW
+# exe next:mem
+#                 2610LW
+# mem next:wb
+#                 2630LW
+# wb next:if
+#                 2650LW
+#                 2660 WRITING: WriteReg-15 <= Data-ab000000
+#                 2670LW
+# rf next:exe
+#                 2690SB
+# exe next:mem
+#                 2710SB
+# mem next:if
+#                 2730SB
+#                 2750SB
+# rf next:exe
+#                 2770LB
+# exe next:mem
+#                 2790LB
+# mem next:wb
+#                 2810LB
+# wb next:if
+#                 2830LB
+#                 2840 WRITING: WriteReg-18 <= Data-ffffff80
+#                 2850LB
+# rf next:exe
+#                 2870ADDU
+# exe next:wb
+#                 2890ADDU
+# wb next:if
+#                 2910ADDU
+#                 2920 WRITING: WriteReg- 4 <= Data-00000004
+#                 2930ADDU
+# rf next:exe
+#                 2950ADDU
+# exe next:wb
+#                 2970ADDU
+# wb next:if
+#                 2990ADDU
+#                 3000 WRITING: WriteReg- 5 <= Data-80000002
+#                 3010ADDU
+# rf next:wb
+#                 3030JAL
+# wb next:if
+#                 3050JAL
+#                 3060 WRITING: WriteReg-31 <= Data-00003070
+#                 3070JAL
+#                 3070 J/JAL happening: PC <= 000030cc
+# rf next:exe
+#                 3090ADDU
+# exe next:wb
+#                 3110ADDU
+# wb next:if
+#                 3130ADDU
+#                 3140 WRITING: WriteReg- 2 <= Data-80000006
+#                 3150ADDU
+# rf next:exe
+#                 3170ADDI
+# exe next:wb
+#                 3190ADDI
+# wb next:if
+#                 3210ADDI
+#                 3230ADDI
+# rf next:if
+#                 3250JR
+#                 3250 JR happening: PC <= 00003070
+#                 3270JR
+#                 3270 JR happening: PC <= 00003070
+# rf next:exe
+#                 3290SLT
+# exe next:wb
+#                 3310SLT
+# wb next:if
+#                 3330SLT
+#                 3340 WRITING: WriteReg-25 <= Data-00000001
+#                 3350SLT
+# rf next:exe
+#                 3370BEQ
+# exe next:if
+#                 3390BEQ
+#                 3410BEQ
+# rf next:exe
+#                 3430SLT
+# exe next:wb
+#                 3450SLT
+# wb next:if
+#                 3470SLT
+#                 3480 WRITING: WriteReg-20 <= Data-00000000
+#                 3490SLT
+# rf next:exe
+#                 3510BEQ
+# exe next:if
+#                 3530BEQ
+#                 3550BEQ
+#                 3550 BEQ happening: PC <= 00003084
+# rf next:exe
+#                 3570ORI
+# exe next:wb
+#                 3590ORI
+# wb next:if
+#                 3610ORI
+#                 3630ORI
+# rf next:exe
+#                 3650LUI
+# exe next:wb
+#                 3670LUI
+# wb next:if
+#                 3690LUI
+#                 3700 WRITING: WriteReg-19 <= Data-efef0000
+#                 3710LUI
+# rf next:exe
+#                 3730LUI
+# exe next:wb
+#                 3750LUI
+# wb next:if
+#                 3770LUI
+#                 3780 WRITING: WriteReg- 1 <= Data-abab0000
+#                 3790LUI
+# rf next:exe
+#                 3810ORI
+# exe next:wb
+#                 3830ORI
+# wb next:if
+#                 3850ORI
+#                 3860 WRITING: WriteReg- 1 <= Data-ababcdcd
+#                 3870ORI
+# rf next:exe
+#                 3890ADDU
+# exe next:wb
+#                 3910ADDU
+# wb next:if
+#                 3930ADDU
+#                 3940 WRITING: WriteReg- 3 <= Data-ababcdcd
+#                 3950ADDU
+# rf next:exe
+#                 3970ADDIU
+# exe next:wb
+#                 3990ADDIU
+# wb next:if
+#                 4010ADDIU
+#                 4020 WRITING: WriteReg- 4 <= Data-ababcdcf
+#                 4030ADDIU
+# rf next:exe
+#                 4050ADDI
+# exe next:wb
+#                 4070ADDI
+# wb next:if
+#                 4090ADDI
+#                 4100 WRITING: WriteReg-23 <= Data-ababcdd2
+#                 4100 overflow written!
+#                 4110ADDI
+# rf next:wb
+#                 4130JAL
+# wb next:if
+#                 4150JAL
+#                 4160 WRITING: WriteReg-31 <= Data-000030a4
+#                 4170JAL
+#                 4170 J/JAL happening: PC <= 000030cc
+# rf next:exe
+#                 4190ADDU
+# exe next:wb
+#                 4210ADDU
+# wb next:if
+#                 4230ADDU
+#                 4240 WRITING: WriteReg- 2 <= Data-2babcdd1
+#                 4250ADDU
+# rf next:exe
+#                 4270ADDI
+# exe next:wb
+#                 4290ADDI
+# wb next:if
+#                 4310ADDI
+#                 4330ADDI
+# rf next:if
+#                 4350JR
+#                 4350 JR happening: PC <= 000030a4
+#                 4370JR
+#                 4370 JR happening: PC <= 000030a4
+# rf next:exe
+#                 4390ADDU
+# exe next:wb
+#                 4410ADDU
+# wb next:if
+#                 4430ADDU
+#                 4440 WRITING: WriteReg- 8 <= Data-2babcdd1
+#                 4450ADDU
+# rf next:exe
+#                 4470ADDU
+# exe next:wb
+#                 4490ADDU
+# wb next:if
+#                 4510ADDU
+#                 4520 WRITING: WriteReg- 4 <= Data-2babcdd1
+#                 4530ADDU
+# rf next:exe
+#                 4550ADDU
+# exe next:wb
+#                 4570ADDU
+# wb next:if
+#                 4590ADDU
+#                 4600 WRITING: WriteReg- 5 <= Data-80000002
+#                 4610ADDU
+# rf next:wb
+#                 4630JAL
+# wb next:if
+#                 4650JAL
+#                 4660 WRITING: WriteReg-31 <= Data-000030b4
+#                 4670JAL
+#                 4670 J/JAL happening: PC <= 000030cc
+# rf next:exe
+#                 4690ADDU
+# exe next:wb
+#                 4710ADDU
+# wb next:if
+#                 4730ADDU
+#                 4740 WRITING: WriteReg- 2 <= Data-ababcdd3
+#                 4750ADDU
+# rf next:exe
+#                 4770ADDI
+# exe next:wb
+#                 4790ADDI
+# wb next:if
+#                 4810ADDI
+#                 4830ADDI
+# rf next:if
+#                 4850JR
+#                 4850 JR happening: PC <= 000030b4
+#                 4870JR
+#                 4870 JR happening: PC <= 000030b4
+# rf next:exe
+#                 4890ADDU
+# exe next:wb
+#                 4910ADDU
+# wb next:if
+#                 4930ADDU
+#                 4940 WRITING: WriteReg- 9 <= Data-ababcdd3
+#                 4950ADDU
+# rf next:exe
+#                 4970ADDU
+# exe next:wb
+#                 4990ADDU
+run
+# wb next:if
+#                 5010ADDU
+#                 5020 WRITING: WriteReg- 9 <= Data-2babcdd1
+#                 5030ADDU
+# rf next:exe
+#                 5050LUI
+# exe next:wb
+#                 5070LUI
+# wb next:if
+#                 5090LUI
+#                 5100 WRITING: WriteReg-10 <= Data-00690000
+#                 5110LUI
+# rf next:exe
+#                 5130BEQ
+# exe next:if
+#                 5150BEQ
+#                 5170BEQ
+#                 5170 BEQ happening: PC <= 000030c8
+# rf next:if
+#                 5190J
+#                 5210J
+#                 5210 J/JAL happening: PC <= 000030dc
+# rf next:exe
+#                 5230INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 5250INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 5270INSTRUCTIONS EXECUTED OVER
+#                 5290INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 5310INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 5330INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 5350INSTRUCTIONS EXECUTED OVER
+#                 5370INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 5390INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 5410INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 5430INSTRUCTIONS EXECUTED OVER
+#                 5450INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 5470INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 5490INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 5510INSTRUCTIONS EXECUTED OVER
+#                 5530INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 5550INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 5570INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 5590INSTRUCTIONS EXECUTED OVER
+#                 5610INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 5630INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 5650INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 5670INSTRUCTIONS EXECUTED OVER
+#                 5690INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 5710INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 5730INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 5750INSTRUCTIONS EXECUTED OVER
+#                 5770INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 5790INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 5810INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 5830INSTRUCTIONS EXECUTED OVER
+#                 5850INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 5870INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 5890INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 5910INSTRUCTIONS EXECUTED OVER
+#                 5930INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 5950INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 5970INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 5990INSTRUCTIONS EXECUTED OVER
+#                 6010INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6030INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6050INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6070INSTRUCTIONS EXECUTED OVER
+#                 6090INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6110INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6130INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6150INSTRUCTIONS EXECUTED OVER
+#                 6170INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6190INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6210INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6230INSTRUCTIONS EXECUTED OVER
+#                 6250INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6270INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6290INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6310INSTRUCTIONS EXECUTED OVER
+#                 6330INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6350INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6370INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6390INSTRUCTIONS EXECUTED OVER
+#                 6410INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6430INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6450INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6470INSTRUCTIONS EXECUTED OVER
+#                 6490INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6510INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6530INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6550INSTRUCTIONS EXECUTED OVER
+#                 6570INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6590INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6610INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6630INSTRUCTIONS EXECUTED OVER
+#                 6650INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6670INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6690INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6710INSTRUCTIONS EXECUTED OVER
+#                 6730INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6750INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6770INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6790INSTRUCTIONS EXECUTED OVER
+#                 6810INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6830INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6850INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6870INSTRUCTIONS EXECUTED OVER
+#                 6890INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6910INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6930INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6950INSTRUCTIONS EXECUTED OVER
+#                 6970INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6990INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7010INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7030INSTRUCTIONS EXECUTED OVER
+#                 7050INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7070INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7090INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7110INSTRUCTIONS EXECUTED OVER
+#                 7130INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7150INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7170INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7190INSTRUCTIONS EXECUTED OVER
+#                 7210INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7230INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7250INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7270INSTRUCTIONS EXECUTED OVER
+#                 7290INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7310INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7330INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7350INSTRUCTIONS EXECUTED OVER
+#                 7370INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7390INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7410INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7430INSTRUCTIONS EXECUTED OVER
+#                 7450INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7470INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7490INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7510INSTRUCTIONS EXECUTED OVER
+#                 7530INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7550INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7570INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7590INSTRUCTIONS EXECUTED OVER
+#                 7610INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7630INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7650INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7670INSTRUCTIONS EXECUTED OVER
+#                 7690INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7710INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7730INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7750INSTRUCTIONS EXECUTED OVER
+#                 7770INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7790INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7810INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7830INSTRUCTIONS EXECUTED OVER
+#                 7850INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7870INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7890INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7910INSTRUCTIONS EXECUTED OVER
+#                 7930INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7950INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7970INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7990INSTRUCTIONS EXECUTED OVER
+#                 8010INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8030INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8050INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8070INSTRUCTIONS EXECUTED OVER
+#                 8090INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8110INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8130INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8150INSTRUCTIONS EXECUTED OVER
+#                 8170INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8190INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8210INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8230INSTRUCTIONS EXECUTED OVER
+#                 8250INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8270INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8290INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8310INSTRUCTIONS EXECUTED OVER
+#                 8330INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8350INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8370INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8390INSTRUCTIONS EXECUTED OVER
+#                 8410INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8430INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8450INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8470INSTRUCTIONS EXECUTED OVER
+#                 8490INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8510INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8530INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8550INSTRUCTIONS EXECUTED OVER
+#                 8570INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8590INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8610INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8630INSTRUCTIONS EXECUTED OVER
+#                 8650INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8670INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8690INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8710INSTRUCTIONS EXECUTED OVER
+#                 8730INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8750INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8770INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8790INSTRUCTIONS EXECUTED OVER
+#                 8810INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8830INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8850INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8870INSTRUCTIONS EXECUTED OVER
+#                 8890INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8910INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8930INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8950INSTRUCTIONS EXECUTED OVER
+#                 8970INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8990INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9010INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9030INSTRUCTIONS EXECUTED OVER
+#                 9050INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9070INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9090INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9110INSTRUCTIONS EXECUTED OVER
+#                 9130INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9150INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9170INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9190INSTRUCTIONS EXECUTED OVER
+#                 9210INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9230INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9250INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9270INSTRUCTIONS EXECUTED OVER
+#                 9290INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9310INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9330INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9350INSTRUCTIONS EXECUTED OVER
+#                 9370INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9390INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9410INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9430INSTRUCTIONS EXECUTED OVER
+#                 9450INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9470INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9490INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9510INSTRUCTIONS EXECUTED OVER
+#                 9530INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9550INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9570INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9590INSTRUCTIONS EXECUTED OVER
+#                 9610INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9630INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9650INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9670INSTRUCTIONS EXECUTED OVER
+#                 9690INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9710INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9730INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9750INSTRUCTIONS EXECUTED OVER
+#                 9770INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9790INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9810INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9830INSTRUCTIONS EXECUTED OVER
+#                 9850INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9870INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9890INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9910INSTRUCTIONS EXECUTED OVER
+#                 9930INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9950INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9970INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9990INSTRUCTIONS EXECUTED OVER
+add wave -position 1  sim:/test/mips/pc
+restart -f
+run
+#                    0INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                   10ORI
+# exe next:wb
+#                   30ORI
+# wb next:if
+#                   50ORI
+#                   60 WRITING: WriteReg-16 <= Data-00000001
+#                   70ORI
+# rf next:exe
+#                   90ORI
+# exe next:wb
+#                  110ORI
+# wb next:if
+#                  130ORI
+#                  140 WRITING: WriteReg-17 <= Data-00000003
+#                  150ORI
+# rf next:exe
+#                  170ORI
+# exe next:wb
+#                  190ORI
+# wb next:if
+#                  210ORI
+#                  220 WRITING: WriteReg- 8 <= Data-00000001
+#                  230ORI
+# rf next:exe
+#                  250ORI
+# exe next:wb
+#                  270ORI
+# wb next:if
+#                  290ORI
+#                  300 WRITING: WriteReg-12 <= Data-0000abab
+#                  310ORI
+# rf next:exe
+#                  330LUI
+# exe next:wb
+#                  350LUI
+# wb next:if
+#                  370LUI
+#                  380 WRITING: WriteReg-13 <= Data-000a0000
+#                  390LUI
+# rf next:exe
+#                  410ADDU
+# exe next:wb
+#                  430ADDU
+# wb next:if
+#                  450ADDU
+#                  460 WRITING: WriteReg- 4 <= Data-00000001
+#                  470ADDU
+# rf next:exe
+#                  490ADDU
+# exe next:wb
+#                  510ADDU
+# wb next:if
+#                  530ADDU
+#                  540 WRITING: WriteReg- 5 <= Data-00000001
+#                  550ADDU
+# rf next:wb
+#                  570JAL
+# wb next:if
+#                  590JAL
+#                  600 WRITING: WriteReg-31 <= Data-00003020
+#                  610JAL
+#                  610 J/JAL happening: PC <= 000030cc
+# rf next:exe
+#                  630ADDU
+# exe next:wb
+#                  650ADDU
+# wb next:if
+#                  670ADDU
+#                  680 WRITING: WriteReg- 2 <= Data-00000002
+#                  690ADDU
+# rf next:exe
+#                  710ADDI
+# exe next:wb
+#                  730ADDI
+# wb next:if
+#                  750ADDI
+#                  770ADDI
+# rf next:if
+#                  790JR
+#                  790 JR happening: PC <= 00003020
+#                  810JR
+#                  810 JR happening: PC <= 00003020
+# rf next:exe
+#                  830ADDU
+# exe next:wb
+#                  850ADDU
+# wb next:if
+#                  870ADDU
+#                  880 WRITING: WriteReg-16 <= Data-00000002
+#                  890ADDU
+# rf next:exe
+#                  910SUBU
+# exe next:wb
+#                  930SUBU
+# wb next:if
+#                  950SUBU
+#                  960 WRITING: WriteReg-17 <= Data-00000002
+#                  970SUBU
+# rf next:exe
+#                  990BEQ
+# exe next:if
+#                 1010BEQ
+#                 1030BEQ
+#                 1030 BEQ happening: PC <= 00003014
+# rf next:exe
+#                 1050ADDU
+# exe next:wb
+#                 1070ADDU
+# wb next:if
+#                 1090ADDU
+#                 1100 WRITING: WriteReg- 4 <= Data-00000002
+#                 1110ADDU
+# rf next:exe
+#                 1130ADDU
+# exe next:wb
+#                 1150ADDU
+# wb next:if
+#                 1170ADDU
+#                 1180 WRITING: WriteReg- 5 <= Data-00000001
+#                 1190ADDU
+# rf next:wb
+#                 1210JAL
+# wb next:if
+#                 1230JAL
+#                 1240 WRITING: WriteReg-31 <= Data-00003020
+#                 1250JAL
+#                 1250 J/JAL happening: PC <= 000030cc
+# rf next:exe
+#                 1270ADDU
+# exe next:wb
+#                 1290ADDU
+# wb next:if
+#                 1310ADDU
+#                 1320 WRITING: WriteReg- 2 <= Data-00000003
+#                 1330ADDU
+# rf next:exe
+#                 1350ADDI
+# exe next:wb
+#                 1370ADDI
+# wb next:if
+#                 1390ADDI
+#                 1410ADDI
+# rf next:if
+#                 1430JR
+#                 1430 JR happening: PC <= 00003020
+#                 1450JR
+#                 1450 JR happening: PC <= 00003020
+# rf next:exe
+#                 1470ADDU
+# exe next:wb
+#                 1490ADDU
+# wb next:if
+#                 1510ADDU
+#                 1520 WRITING: WriteReg-16 <= Data-00000003
+#                 1530ADDU
+# rf next:exe
+#                 1550SUBU
+# exe next:wb
+#                 1570SUBU
+# wb next:if
+#                 1590SUBU
+#                 1600 WRITING: WriteReg-17 <= Data-00000001
+#                 1610SUBU
+# rf next:exe
+#                 1630BEQ
+# exe next:if
+#                 1650BEQ
+#                 1670BEQ
+# rf next:exe
+#                 1690ORI
+# exe next:wb
+#                 1710ORI
+# wb next:if
+#                 1730ORI
+#                 1740 WRITING: WriteReg- 8 <= Data-00000004
+#                 1750ORI
+# rf next:exe
+#                 1770LUI
+# exe next:wb
+#                 1790LUI
+# wb next:if
+#                 1810LUI
+#                 1820 WRITING: WriteReg- 1 <= Data-7fff0000
+#                 1830LUI
+# rf next:exe
+#                 1850ORI
+# exe next:wb
+#                 1870ORI
+# wb next:if
+#                 1890ORI
+#                 1900 WRITING: WriteReg- 1 <= Data-7fffffff
+#                 1910ORI
+# rf next:exe
+#                 1930ADDU
+# exe next:wb
+#                 1950ADDU
+# wb next:if
+#                 1970ADDU
+#                 1980 WRITING: WriteReg-24 <= Data-7fffffff
+#                 1990ADDU
+# rf next:exe
+#                 2010ADDIU
+# exe next:wb
+#                 2030ADDIU
+# wb next:if
+#                 2050ADDIU
+#                 2060 WRITING: WriteReg- 9 <= Data-80000002
+#                 2070ADDIU
+# rf next:exe
+#                 2090ADDIU
+# exe next:wb
+#                 2110ADDIU
+# wb next:if
+#                 2130ADDIU
+#                 2140 WRITING: WriteReg-10 <= Data-80000004
+#                 2150ADDIU
+# rf next:exe
+#                 2170ADDI
+# exe next:wb
+#                 2190ADDI
+# wb next:if
+#                 2210ADDI
+#                 2220 WRITING: WriteReg-22 <= Data-80000005
+#                 2220 overflow written!
+#                 2230ADDI
+# rf next:exe
+#                 2250SW
+# exe next:mem
+#                 2270SW
+# mem next:if
+#                 2290SW
+#                 2310SW
+# rf next:exe
+#                 2330SW
+# exe next:mem
+#                 2350SW
+# mem next:if
+#                 2370SW
+#                 2390SW
+# rf next:exe
+#                 2410LB
+# exe next:mem
+#                 2430LB
+# mem next:wb
+#                 2450LB
+# wb next:if
+#                 2470LB
+#                 2480 WRITING: WriteReg-14 <= Data-0000007f
+#                 2490LB
+# rf next:exe
+#                 2510SB
+# exe next:mem
+#                 2530SB
+# mem next:if
+#                 2550SB
+#                 2570SB
+# rf next:exe
+#                 2590LW
+# exe next:mem
+#                 2610LW
+# mem next:wb
+#                 2630LW
+# wb next:if
+#                 2650LW
+#                 2660 WRITING: WriteReg-15 <= Data-ab000000
+#                 2670LW
+# rf next:exe
+#                 2690SB
+# exe next:mem
+#                 2710SB
+# mem next:if
+#                 2730SB
+#                 2750SB
+# rf next:exe
+#                 2770LB
+# exe next:mem
+#                 2790LB
+# mem next:wb
+#                 2810LB
+# wb next:if
+#                 2830LB
+#                 2840 WRITING: WriteReg-18 <= Data-ffffff80
+#                 2850LB
+# rf next:exe
+#                 2870ADDU
+# exe next:wb
+#                 2890ADDU
+# wb next:if
+#                 2910ADDU
+#                 2920 WRITING: WriteReg- 4 <= Data-00000004
+#                 2930ADDU
+# rf next:exe
+#                 2950ADDU
+# exe next:wb
+#                 2970ADDU
+# wb next:if
+#                 2990ADDU
+#                 3000 WRITING: WriteReg- 5 <= Data-80000002
+#                 3010ADDU
+# rf next:wb
+#                 3030JAL
+# wb next:if
+#                 3050JAL
+#                 3060 WRITING: WriteReg-31 <= Data-00003070
+#                 3070JAL
+#                 3070 J/JAL happening: PC <= 000030cc
+# rf next:exe
+#                 3090ADDU
+# exe next:wb
+#                 3110ADDU
+# wb next:if
+#                 3130ADDU
+#                 3140 WRITING: WriteReg- 2 <= Data-80000006
+#                 3150ADDU
+# rf next:exe
+#                 3170ADDI
+# exe next:wb
+#                 3190ADDI
+# wb next:if
+#                 3210ADDI
+#                 3230ADDI
+# rf next:if
+#                 3250JR
+#                 3250 JR happening: PC <= 00003070
+#                 3270JR
+#                 3270 JR happening: PC <= 00003070
+# rf next:exe
+#                 3290SLT
+# exe next:wb
+#                 3310SLT
+# wb next:if
+#                 3330SLT
+#                 3340 WRITING: WriteReg-25 <= Data-00000001
+#                 3350SLT
+# rf next:exe
+#                 3370BEQ
+# exe next:if
+#                 3390BEQ
+#                 3410BEQ
+# rf next:exe
+#                 3430SLT
+# exe next:wb
+#                 3450SLT
+# wb next:if
+#                 3470SLT
+#                 3480 WRITING: WriteReg-20 <= Data-00000000
+#                 3490SLT
+# rf next:exe
+#                 3510BEQ
+# exe next:if
+#                 3530BEQ
+#                 3550BEQ
+#                 3550 BEQ happening: PC <= 00003084
+# rf next:exe
+#                 3570ORI
+# exe next:wb
+#                 3590ORI
+# wb next:if
+#                 3610ORI
+#                 3630ORI
+# rf next:exe
+#                 3650LUI
+# exe next:wb
+#                 3670LUI
+# wb next:if
+#                 3690LUI
+#                 3700 WRITING: WriteReg-19 <= Data-efef0000
+#                 3710LUI
+# rf next:exe
+#                 3730LUI
+# exe next:wb
+#                 3750LUI
+# wb next:if
+#                 3770LUI
+#                 3780 WRITING: WriteReg- 1 <= Data-abab0000
+#                 3790LUI
+# rf next:exe
+#                 3810ORI
+# exe next:wb
+#                 3830ORI
+# wb next:if
+#                 3850ORI
+#                 3860 WRITING: WriteReg- 1 <= Data-ababcdcd
+#                 3870ORI
+# rf next:exe
+#                 3890ADDU
+# exe next:wb
+#                 3910ADDU
+# wb next:if
+#                 3930ADDU
+#                 3940 WRITING: WriteReg- 3 <= Data-ababcdcd
+#                 3950ADDU
+# rf next:exe
+#                 3970ADDIU
+# exe next:wb
+#                 3990ADDIU
+# wb next:if
+#                 4010ADDIU
+#                 4020 WRITING: WriteReg- 4 <= Data-ababcdcf
+#                 4030ADDIU
+# rf next:exe
+#                 4050ADDI
+# exe next:wb
+#                 4070ADDI
+# wb next:if
+#                 4090ADDI
+#                 4100 WRITING: WriteReg-23 <= Data-ababcdd2
+#                 4100 overflow written!
+#                 4110ADDI
+# rf next:wb
+#                 4130JAL
+# wb next:if
+#                 4150JAL
+#                 4160 WRITING: WriteReg-31 <= Data-000030a4
+#                 4170JAL
+#                 4170 J/JAL happening: PC <= 000030cc
+# rf next:exe
+#                 4190ADDU
+# exe next:wb
+#                 4210ADDU
+# wb next:if
+#                 4230ADDU
+#                 4240 WRITING: WriteReg- 2 <= Data-2babcdd1
+#                 4250ADDU
+# rf next:exe
+#                 4270ADDI
+# exe next:wb
+#                 4290ADDI
+# wb next:if
+#                 4310ADDI
+#                 4330ADDI
+# rf next:if
+#                 4350JR
+#                 4350 JR happening: PC <= 000030a4
+#                 4370JR
+#                 4370 JR happening: PC <= 000030a4
+# rf next:exe
+#                 4390ADDU
+# exe next:wb
+#                 4410ADDU
+# wb next:if
+#                 4430ADDU
+#                 4440 WRITING: WriteReg- 8 <= Data-2babcdd1
+#                 4450ADDU
+# rf next:exe
+#                 4470ADDU
+# exe next:wb
+#                 4490ADDU
+# wb next:if
+#                 4510ADDU
+#                 4520 WRITING: WriteReg- 4 <= Data-2babcdd1
+#                 4530ADDU
+# rf next:exe
+#                 4550ADDU
+# exe next:wb
+#                 4570ADDU
+# wb next:if
+#                 4590ADDU
+#                 4600 WRITING: WriteReg- 5 <= Data-80000002
+#                 4610ADDU
+# rf next:wb
+#                 4630JAL
+# wb next:if
+#                 4650JAL
+#                 4660 WRITING: WriteReg-31 <= Data-000030b4
+#                 4670JAL
+#                 4670 J/JAL happening: PC <= 000030cc
+# rf next:exe
+#                 4690ADDU
+# exe next:wb
+#                 4710ADDU
+# wb next:if
+#                 4730ADDU
+#                 4740 WRITING: WriteReg- 2 <= Data-ababcdd3
+#                 4750ADDU
+# rf next:exe
+#                 4770ADDI
+# exe next:wb
+#                 4790ADDI
+# wb next:if
+#                 4810ADDI
+#                 4830ADDI
+# rf next:if
+#                 4850JR
+#                 4850 JR happening: PC <= 000030b4
+#                 4870JR
+#                 4870 JR happening: PC <= 000030b4
+# rf next:exe
+#                 4890ADDU
+# exe next:wb
+#                 4910ADDU
+# wb next:if
+#                 4930ADDU
+#                 4940 WRITING: WriteReg- 9 <= Data-ababcdd3
+#                 4950ADDU
+# rf next:exe
+#                 4970ADDU
+# exe next:wb
+#                 4990ADDU
+run
+# wb next:if
+#                 5010ADDU
+#                 5020 WRITING: WriteReg- 9 <= Data-2babcdd1
+#                 5030ADDU
+# rf next:exe
+#                 5050LUI
+# exe next:wb
+#                 5070LUI
+# wb next:if
+#                 5090LUI
+#                 5100 WRITING: WriteReg-10 <= Data-00690000
+#                 5110LUI
+# rf next:exe
+#                 5130BEQ
+# exe next:if
+#                 5150BEQ
+#                 5170BEQ
+#                 5170 BEQ happening: PC <= 000030c8
+# rf next:if
+#                 5190J
+#                 5210J
+#                 5210 J/JAL happening: PC <= 000030dc
+# rf next:exe
+#                 5230INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 5250INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 5270INSTRUCTIONS EXECUTED OVER
+#                 5290INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 5310INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 5330INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 5350INSTRUCTIONS EXECUTED OVER
+#                 5370INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 5390INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 5410INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 5430INSTRUCTIONS EXECUTED OVER
+#                 5450INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 5470INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 5490INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 5510INSTRUCTIONS EXECUTED OVER
+#                 5530INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 5550INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 5570INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 5590INSTRUCTIONS EXECUTED OVER
+#                 5610INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 5630INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 5650INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 5670INSTRUCTIONS EXECUTED OVER
+#                 5690INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 5710INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 5730INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 5750INSTRUCTIONS EXECUTED OVER
+#                 5770INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 5790INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 5810INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 5830INSTRUCTIONS EXECUTED OVER
+#                 5850INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 5870INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 5890INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 5910INSTRUCTIONS EXECUTED OVER
+#                 5930INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 5950INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 5970INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 5990INSTRUCTIONS EXECUTED OVER
+#                 6010INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6030INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6050INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6070INSTRUCTIONS EXECUTED OVER
+#                 6090INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6110INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6130INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6150INSTRUCTIONS EXECUTED OVER
+#                 6170INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6190INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6210INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6230INSTRUCTIONS EXECUTED OVER
+#                 6250INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6270INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6290INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6310INSTRUCTIONS EXECUTED OVER
+#                 6330INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6350INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6370INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6390INSTRUCTIONS EXECUTED OVER
+#                 6410INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6430INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6450INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6470INSTRUCTIONS EXECUTED OVER
+#                 6490INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6510INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6530INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6550INSTRUCTIONS EXECUTED OVER
+#                 6570INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6590INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6610INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6630INSTRUCTIONS EXECUTED OVER
+#                 6650INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6670INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6690INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6710INSTRUCTIONS EXECUTED OVER
+#                 6730INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6750INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6770INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6790INSTRUCTIONS EXECUTED OVER
+#                 6810INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6830INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6850INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6870INSTRUCTIONS EXECUTED OVER
+#                 6890INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6910INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 6930INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 6950INSTRUCTIONS EXECUTED OVER
+#                 6970INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 6990INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7010INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7030INSTRUCTIONS EXECUTED OVER
+#                 7050INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7070INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7090INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7110INSTRUCTIONS EXECUTED OVER
+#                 7130INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7150INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7170INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7190INSTRUCTIONS EXECUTED OVER
+#                 7210INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7230INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7250INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7270INSTRUCTIONS EXECUTED OVER
+#                 7290INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7310INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7330INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7350INSTRUCTIONS EXECUTED OVER
+#                 7370INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7390INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7410INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7430INSTRUCTIONS EXECUTED OVER
+#                 7450INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7470INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7490INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7510INSTRUCTIONS EXECUTED OVER
+#                 7530INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7550INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7570INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7590INSTRUCTIONS EXECUTED OVER
+#                 7610INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7630INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7650INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7670INSTRUCTIONS EXECUTED OVER
+#                 7690INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7710INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7730INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7750INSTRUCTIONS EXECUTED OVER
+#                 7770INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7790INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7810INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7830INSTRUCTIONS EXECUTED OVER
+#                 7850INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7870INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7890INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7910INSTRUCTIONS EXECUTED OVER
+#                 7930INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 7950INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 7970INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 7990INSTRUCTIONS EXECUTED OVER
+#                 8010INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8030INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8050INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8070INSTRUCTIONS EXECUTED OVER
+#                 8090INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8110INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8130INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8150INSTRUCTIONS EXECUTED OVER
+#                 8170INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8190INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8210INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8230INSTRUCTIONS EXECUTED OVER
+#                 8250INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8270INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8290INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8310INSTRUCTIONS EXECUTED OVER
+#                 8330INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8350INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8370INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8390INSTRUCTIONS EXECUTED OVER
+#                 8410INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8430INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8450INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8470INSTRUCTIONS EXECUTED OVER
+#                 8490INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8510INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8530INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8550INSTRUCTIONS EXECUTED OVER
+#                 8570INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8590INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8610INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8630INSTRUCTIONS EXECUTED OVER
+#                 8650INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8670INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8690INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8710INSTRUCTIONS EXECUTED OVER
+#                 8730INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8750INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8770INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8790INSTRUCTIONS EXECUTED OVER
+#                 8810INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8830INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8850INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8870INSTRUCTIONS EXECUTED OVER
+#                 8890INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8910INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 8930INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 8950INSTRUCTIONS EXECUTED OVER
+#                 8970INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 8990INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9010INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9030INSTRUCTIONS EXECUTED OVER
+#                 9050INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9070INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9090INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9110INSTRUCTIONS EXECUTED OVER
+#                 9130INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9150INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9170INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9190INSTRUCTIONS EXECUTED OVER
+#                 9210INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9230INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9250INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9270INSTRUCTIONS EXECUTED OVER
+#                 9290INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9310INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9330INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9350INSTRUCTIONS EXECUTED OVER
+#                 9370INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9390INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9410INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9430INSTRUCTIONS EXECUTED OVER
+#                 9450INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9470INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9490INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9510INSTRUCTIONS EXECUTED OVER
+#                 9530INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9550INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9570INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9590INSTRUCTIONS EXECUTED OVER
+#                 9610INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9630INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9650INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9670INSTRUCTIONS EXECUTED OVER
+#                 9690INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9710INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9730INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9750INSTRUCTIONS EXECUTED OVER
+#                 9770INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9790INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9810INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9830INSTRUCTIONS EXECUTED OVER
+#                 9850INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9870INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9890INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9910INSTRUCTIONS EXECUTED OVER
+#                 9930INSTRUCTIONS EXECUTED OVER
+# rf next:exe
+#                 9950INSTRUCTIONS EXECUTED OVER
+# exe next:wb
+#                 9970INSTRUCTIONS EXECUTED OVER
+# wb next:if
+#                 9990INSTRUCTIONS EXECUTED OVER

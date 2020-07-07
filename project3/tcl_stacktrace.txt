@@ -1,0 +1,7 @@
+Mon Jul 06 0:23:22 ?????? 2020
+Trace back: wrong # args: should be "mti_popupinternal menu w"
+    while executing
+"mti_popupinternal .dockbar.tbf0.standard.tb.button_0.menu "
+    ("after" script)
+  <2: ::tkerror {wrong # args: should be "mti_popupinternal menu w"}
+  <1: ::bgerror {wrong # args: should be "mti_popupinternal menu w"}
