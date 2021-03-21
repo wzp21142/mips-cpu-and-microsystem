@@ -1,3 +1,6 @@
+[![MIT licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
+[简体中文](README.md)
+-----------
 # Description
 Three CPU projects that increase in difficulty and their test programs. If you want to test them, please run test.v and wave.do in ModelSim.
 
