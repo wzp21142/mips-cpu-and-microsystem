@@ -4,13 +4,21 @@
 # 描述
 三个难度递增的Verilog CPU项目及其测试程序,请在ModelSim中运行test.v以及wave.do进行相关测试.
 
+测试时im模块将读入由测试代码px-test.asm生成的十六进制序列code.txt并执行,通过观察各寄存器值以及脉冲信号的变化情况即可进行调试.
+
 ## 单周期cpu
-第一个单周期项目比较简单,它支持以下指令集.
+第一个单周期项目比较简单,数据通路如下所示:
+
+![fact](mdpng/p1_path.png)
+
+它支持以下指令集.
 
 *MIPS-1＝{addu,subu,ori,lw,sw,beq,lui,addi,addiu,lb,slt,jal,jr}*
 
 ## 多周期cpu
-该项目对controller模块进行了完全的重构,以实现多周期的执行过程.
+该项目对controller模块进行了完全的重构,以实现多周期的执行过程,数据通路如下所示:
+
+![fact](mdpng/p2_path.png)
 
 在controller模块中共有5个周期用来控制整个运行时:if(instruction fetch), dcd/rf(decoding/registers fetch), exe(execution), mem(memory access), wb(write back).
 
@@ -27,7 +35,9 @@
 *MIPS-2＝{addu,subu,slt,jr,addi,addiu,ori,lw,lb,sw,sb,beq,lui,j,jal,bgezal}*
 
 ## 微系统
-该项目实现了一个简单的微系统,模拟了CPU和I/O设备间的数据交换.整个项目在运行时产生如下的效果:每隔一定时钟周期(预设为10),CPU将发生一次中断并由中断子程序执行I/O操作,中断子程序不断读取新的输入设备内容,一旦发现与之前的32位输入值不同,则更新32位输出设备显示为当前新值,否则将输出设备显示内容加1.
+该项目实现了一个简单的微系统,模拟了CPU和I/O设备间的数据交换.整个项目在运行时产生如下的效果:每隔一定时钟周期(预设为10),CPU将发生一次中断并由中断子程序执行I/O操作,中断子程序不断读取新的输入设备内容,一旦发现与之前的32位输入值不同,则更新32位输出设备显示为当前新值,否则将输出设备显示内容加1.数据通路如下所示:
+
+![fact](mdpng/p3_path.png)
 
 提供了系统桥以供CPU和I/O设备间进行数据交换.
 
